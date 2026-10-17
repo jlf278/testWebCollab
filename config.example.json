@@ -1,0 +1,13 @@
+{
+  "interval_seconds": 1800,
+  "browser": "/usr/bin/chromium",
+  "session": "session.json",
+  "state": "state.sqlite3",
+  "targets": [
+    {"day": "2026-12-22", "port": "GOC", "url": "https://disneycruise.disney.go.com/my-disney-cruise/YOUR_BOOKING_ID/PORTADVENTURES/2026-12-22/?ship=DD&port=GOC"},
+    {"day": "2026-12-23", "port": "LPT", "url": "https://disneycruise.disney.go.com/my-disney-cruise/YOUR_BOOKING_ID/PORTADVENTURES/2026-12-23/?ship=DD&port=LPT"},
+    {"day": "2026-12-26", "port": "GOC", "url": "https://disneycruise.disney.go.com/my-disney-cruise/YOUR_BOOKING_ID/PORTADVENTURES/2026-12-26/?ship=DD&port=GOC"}
+  ],
+  "allowed_titles": [],
+  "selectors": {}
+}

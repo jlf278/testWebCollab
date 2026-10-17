@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dream-cabanas"
+version = "0.1.0"
+description = "Conservative Disney Cruise Line cabana availability monitor"
+requires-python = ">=3.11"
+dependencies = ["playwright==1.64.0", "tzdata==2026.5"]
+
+[project.scripts]
+dream-cabanas = "cabanas.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cabanas*"]
